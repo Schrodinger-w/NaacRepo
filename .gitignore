@@ -1,0 +1,32 @@
+# Dependencies: reinstalled with "npm install" from the committed package-lock.json files.
+node_modules/
+
+# Local settings and secrets. .env holds this machine's SESSION_SECRET and must never be
+# committed; .env.example is the template and is committed on purpose.
+.env
+.env.*.local
+!.env.example
+
+# Uploaded evidence files. These are runtime data, not source, and the server recreates the
+# folder on startup.
+backend/storage/
+
+# Build output
+dist/
+build/
+
+# Python bytecode from the wireframe generator
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

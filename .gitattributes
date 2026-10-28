@@ -1,0 +1,9 @@
+# Normalise line endings in the repository so the four of us do not produce diffs that are
+# nothing but CRLF/LF changes. Files are still checked out with native endings on Windows.
+* text=auto
+
+# Never let git rewrite these.
+*.png binary
+*.pdf binary
+*.svg text
+*.ico binary
