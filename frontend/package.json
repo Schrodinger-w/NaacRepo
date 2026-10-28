@@ -1,0 +1,24 @@
+{
+  "name": "naac-evidence-repository-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React user interface for the NAAC Evidence Repository prototype (CS314, Team T095)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.7.0",
+    "vite": "6.4.4"
+  }
+}

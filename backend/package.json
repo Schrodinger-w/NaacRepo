@@ -1,0 +1,30 @@
+{
+  "name": "naac-evidence-repository-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "REST API for the NAAC Evidence Repository prototype (CS314, Team T095)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seed.js",
+    "seed:reset": "node src/seed/seed.js --reset"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.3",
+    "connect-mongo": "5.1.0",
+    "cors": "2.8.6",
+    "dotenv": "16.6.1",
+    "express": "4.22.3",
+    "express-session": "1.19.0",
+    "express-validator": "7.3.2",
+    "helmet": "8.3.0",
+    "mongoose": "8.24.5",
+    "morgan": "1.12.1",
+    "multer": "2.4.0"
+  }
+}
